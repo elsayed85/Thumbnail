@@ -1,5 +1,5 @@
 {
-    "name": "lakshmaji/thumbnail",
+    "name": "elsayed85/thumbnail",
     "description": "Thumbnails for videos",
     "keywords": [
         "Thumbnails",
@@ -13,25 +13,25 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "lakshmaji",
+            "name": "Elsayed85",
             "email": ""
         }
     ],
     "require": {
-        "php-ffmpeg/php-ffmpeg": "~0.5"
+        "php-ffmpeg/php-ffmpeg": "^1.0"
     },
     "autoload": {
         "psr-4": {
-            "Lakshmaji\\Thumbnail\\": "src/"
+            "Elsayed85\\Thumbnail\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Lakshmaji\\Thumbnail\\ThumbnailServiceProvider"
+                "Elsayed85\\Thumbnail\\ThumbnailServiceProvider"
             ],
             "aliases": {
-                "Thumbnail": "Lakshmaji\\Thumbnail\\Facade\\Thumbnail"
+                "Thumbnail": "Elsayed85\\Thumbnail\\Facade\\Thumbnail"
             }
         }
     },

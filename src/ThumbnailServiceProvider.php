@@ -1,7 +1,7 @@
 <?php
 
 // Define namespace
-namespace Lakshmaji\Thumbnail;
+namespace Elsayed85\Thumbnail;
 
 // Include namespace
 use Illuminate\Support\ServiceProvider;

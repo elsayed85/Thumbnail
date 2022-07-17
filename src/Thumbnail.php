@@ -7,7 +7,7 @@
 |
 */
 
-namespace Lakshmaji\Thumbnail;
+namespace Elsayed85\Thumbnail;
 
 use Exception;
 use FFMpeg\FFMpeg;

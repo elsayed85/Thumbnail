@@ -1,6 +1,6 @@
 <?php
 
-namespace Lakshmaji\Thumbnail\Facade;
+namespace Elsayed85\Thumbnail\Facade;
 
 // Inlcude namespace
 use Illuminate\Support\Facades\Facade;
